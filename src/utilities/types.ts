@@ -36,3 +36,12 @@ export interface Map {
 export interface NullableMap {
   [key: string]: string | number | undefined | null;
 }
+
+export interface ILocation {
+  lat: number;
+  lng: number;
+}
+export interface PlacesSearchResult {
+  description: string;
+  geometry: {location: ILocation};
+}

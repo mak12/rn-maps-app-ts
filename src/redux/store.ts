@@ -1,5 +1,4 @@
 import {configureStore, AnyAction} from '@reduxjs/toolkit';
-import {combineReducers} from 'redux';
 import {
   FLUSH,
   REHYDRATE,

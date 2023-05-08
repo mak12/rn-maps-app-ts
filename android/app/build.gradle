@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.boilerplate"
+    namespace "com.mapsapp"
     defaultConfig {
-        applicationId "com.boilerplate"
+        applicationId "com.mapsapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

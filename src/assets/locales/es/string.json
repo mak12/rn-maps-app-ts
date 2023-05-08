@@ -59,5 +59,8 @@
   "empty_list": {
     "empty_list": "Empty list",
     "empty_product": "The product list is empty"
+  },
+  "dashboard": {
+    "autoCompletePlaceholder": "Search here"
   }
 }

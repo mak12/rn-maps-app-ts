@@ -1,10 +1,3 @@
-import {Map} from './types';
-
-export const APP_ACTIONS = {
-  LOGOUT: 'Logout',
-};
-//App urls
-export const APP_URLS = {
-  BASE_URL: 'https://eservice.eliteappliance.ca/EASAPI/',
-  GET_TOKEN: 'api/Account/GetToken',
-};
+//default lat lng incase of permission denied
+export const DEFAULT_LATITUDE = 33.5651; //lat lng of Pakistan
+export const DEFAULT_LONGITUDE = 73.0169;
